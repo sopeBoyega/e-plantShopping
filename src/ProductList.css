@@ -92,6 +92,13 @@ body {
     margin-bottom: 10px;
 }
 
+.btn-disabled {
+    opacity: 0.5; /* Reduce opacity to visually indicate disabled state */
+    cursor:not-allowed; /* Change cursor to indicate that the button is not clickable */
+    content: "Added To Cart";
+    background-color: #ccc;
+  }
+
 .product-price {
     color: #e74c3c;
     font-size: 1.2rem;
